@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  transition: translate ease-in-out 100ms, box-shadow ease-in-out 100ms;
+  border: none;
+}
+
+.card:hover,
+.card:focus {
+  translate: 0 -5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .2);
+}
